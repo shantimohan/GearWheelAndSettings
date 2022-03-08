@@ -142,4 +142,13 @@
   <ItemGroup>
     <BundleResource Include="Resources\icon_settings%402x.png" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\icon_gear_wheel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\icon_gear_wheel%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\icon_gear_wheel%403x.png" />
+  </ItemGroup>
 </Project>

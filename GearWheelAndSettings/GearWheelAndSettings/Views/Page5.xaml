@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundColor="Beige"
+             x:Class="GearWheelAndSettings.Views.Page5">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Gear Wheel"
+                     Priority="0"
+                     Order="Primary"
+                     IconImageSource="icon_gear_wheel.png" />
+        <ToolbarItem Text="Settings"
+                     Priority="0"
+                     Order="Primary"
+                     IconImageSource="icon_settings.png" />
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <Grid RowDefinitions="Auto, *, *">
+            <Label Grid.Row="0"
+                   Text="This is TabbedPage : Page 5"
+                   HorizontalOptions="CenterAndExpand" />
+
+            <StackLayout Grid.Row="1">
+                <Frame BorderColor="Red"
+                       BackgroundColor="Transparent"
+                       HeightRequest="100"
+                       WidthRequest="100"
+                       HorizontalOptions="Center">
+                    <Image HeightRequest="96"
+                           WidthRequest="96"
+                           Source="icon_gear_wheel.png"
+                           HorizontalOptions="Center" />
+                </Frame>
+
+                <Label Text="icon_gear_wheel"
+                       HorizontalOptions="Center"/>
+            </StackLayout>
+
+            <StackLayout Grid.Row="2">
+                <Frame BorderColor="Red"
+                       BackgroundColor="Transparent"
+                       HeightRequest="100"
+                       WidthRequest="100"
+                       HorizontalOptions="Center">
+                    <Image HeightRequest="96"
+                           WidthRequest="96"
+                           Source="icon_settings.png"
+                           HorizontalOptions="Center" />
+                </Frame>
+
+                <Label Text="icon_settings"
+                       HorizontalOptions="Center"/>
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

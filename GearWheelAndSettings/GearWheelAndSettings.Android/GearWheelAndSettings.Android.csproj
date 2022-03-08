@@ -83,7 +83,9 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\icon.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\icon_gear_wheel.png" />
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\GearWheelAndSettings\GearWheelAndSettings.csproj">
       <Project>{FCF9A4FC-3101-4185-A8E4-A176FC536834}</Project>

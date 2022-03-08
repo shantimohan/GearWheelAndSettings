@@ -16,6 +16,30 @@
                 <views:Page2 />
             </x:Arguments>
         </NavigationPage>
+
+        <NavigationPage Title="Tab 3">
+            <x:Arguments>
+                <views:Page3 />
+            </x:Arguments>
+        </NavigationPage>
+
+        <NavigationPage Title="Tab 4">
+            <x:Arguments>
+                <views:Page4 />
+            </x:Arguments>
+        </NavigationPage>
+
+        <NavigationPage Title="Tab 5">
+            <x:Arguments>
+                <views:Page5 />
+            </x:Arguments>
+        </NavigationPage>
+
+        <NavigationPage Title="Tab 6">
+            <x:Arguments>
+                <views:Page6 />
+            </x:Arguments>
+        </NavigationPage>
     </TabbedPage.Children>
 
 </TabbedPage>
